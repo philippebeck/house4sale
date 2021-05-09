@@ -1,0 +1,24 @@
+{
+    "name": "house4sale",
+    "description": "Website about a house for sale in France",
+    "keywords": [
+        "website",
+        "house",
+        "selling",
+        "France"
+    ],
+    "license": "MIT",
+    "main": "index.php",
+    "homepage": "https://house4sale.philippebeck.net",
+    "repository": "github:philippebeck/house4sale",
+    "bugs": "https://github.com/philippebeck/house4sale/issues",
+    "dependencies": {
+        "@fortawesome/fontawesome-free": "^5.15.3",
+        "animadio": "^4.2.9"
+    },
+    "author": {
+        "name": "Philippe Beck",
+        "email": "philippe@philippebeck.net",
+        "url": "https://philippebeck.net"
+    }
+}
