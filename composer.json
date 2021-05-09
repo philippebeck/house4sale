@@ -1,0 +1,49 @@
+{
+    "name": "philippebeck/house4sale",
+    "version": "0.1.0",
+    "type": "project",
+    "description": "Website about a house for sale in France",
+    "keywords": [
+      "website",
+      "house",
+      "selling",
+      "France"
+    ],
+    "homepage": "https://house4sale.philippebeck.net",
+    "license": "MIT",
+    "authors": [
+      {
+        "name": "Philippe Beck",
+        "email": "philippe@philippebeck.net",
+        "homepage": "https://philippebeck.net",
+        "role": "Lead Developer"
+      }
+    ],
+    "autoload": {
+      "psr-4": {
+        "App\\": "src/"
+      }
+    },
+    "require": {
+      "php": "7.3",
+      "devsagency/pam": "^5.0.2",
+      "ext-gd": "*",
+      "ext-exif": "*",
+      "ext-curl": "*",
+      "ext-json": "*"
+    },
+    "require-dev": {
+      "tracy/tracy": "^2.8.3"
+    },
+    "config": {
+      "platform": {
+        "php": "7.3"
+      }
+    },
+    "support": {
+      "email": "admin@philippebeck.net",
+      "issues": "https://github.com/philippebeck/house4sale/issues",
+      "wiki": "https://github.com/philippebeck/house4sale/wiki",
+      "source": "https://github.com/philippebeck/house4sale"
+    }
+  }
