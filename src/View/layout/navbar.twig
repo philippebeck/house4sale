@@ -1,0 +1,84 @@
+<nav class="navbar">
+    <input id="navbar-close"
+        class="navbar-close" 
+        type="radio" 
+        name="navbar" 
+        checked>
+    <input id="navbar-open" 
+        class="navbar-open" 
+        type="radio" 
+        name="navbar">
+
+    <a class="anima-slideB-this" 
+        href="./" 
+        title="Accueil">
+        <img src="img/logo.svg" 
+        alt="Logo Phi"
+        width="40"
+        height="40">
+    </a>
+
+    <ul>
+        <li>
+            <a href="#living" 
+                title="Voir le Séjour">
+                <i class="fas fa-couch fa-lg fa-fw"></i>
+                <span>Séjour</span>
+            </a>
+        </li>
+        <li>
+            <a href="#kitchen" 
+                title="Voir le Cuisine Équipée">
+                <i class="fas fa-utensils fa-lg fa-fw"></i>
+                <span>Cuisine</span>
+            </a>
+        </li>
+        <li>
+            <a href="#bedroom" 
+                title="Voir les Chambres">
+                <i class="fas fa-bed fa-lg fa-fw"></i>
+                <span>Chambres</span>
+            </a>
+        </li>
+        <li>
+            <a href="#garden" 
+                title="Voir le Jardin">
+                <i class="fas fa-tree fa-lg fa-fw"></i>
+                <span>Jardin</span>
+            </a>
+        </li>
+        <li>
+            <a href="#swim" 
+                title="Voir la Piscine">
+                <i class="fas fa-swimmer fa-lg fa-fw"></i>
+                <span>Piscine</span>
+            </a>
+        </li>
+        <li>
+            <a href="#parking" 
+                title="Voir le Parking">
+                <i class="fas fa-parking fa-lg fa-fw"></i>
+                <span>Parking</span>
+            </a>
+        </li>
+    </ul>
+
+    <ul>
+        <li>
+            <a class="onto-color-blue" 
+                href="{{ url('contact') }}" 
+                title="Contact">
+                <i class="fas fa-at fa-lg fa-fw"></i>
+            </a>
+        </li>
+    </ul>
+
+    <label for="navbar-close" 
+        title="Close the Navigation Menu">
+        <i class="fas fa-angle-double-up fa-lg"></i>
+    </label>
+    <label for="navbar-open" 
+        title="Open the Navigation Menu">
+        <i class="fas fa-angle-double-down fa-lg"></i>
+    </label>
+</nav>
