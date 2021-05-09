@@ -1,0 +1,6 @@
+.vscode/
+config/dev-params.php
+config/prod-params.php
+public/img/
+public/node_modules/
+vendor/
