@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Cousine&family=Krub&family=Quando&display=swap');
+
+:root {
+  --sans-serif: 'Krub', sans-serif;
+  --serif: 'Quando', serif;
+  --monospace: 'Cousine', monospace;
+
+  --primary: rgb(98, 135, 245);
+  --primary-dark: rgba(98, 135, 245, var(--opacity-dark));
+  --primary-light: rgba(98, 135, 245, var(--opacity-light));
+  --secondary: rgb(255, 211, 0);
+  --secondary-dark: rgba(255, 211, 0, var(--opacity-dark));
+  --secondary-light: rgba(255, 211, 0, var(--opacity-light));
+}
+
+body {
+  --body-background-color: rgb(230, 230, 250);
+}
